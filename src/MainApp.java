@@ -44,7 +44,8 @@ public class MainApp {
         }
 
         /** 
-         * @todo [difficoltà 1]
+         * (FATTO)
+         * @todo [difficoltà 1] 
          * dire quante ore della giornata la temperature sono sotto zero (zero gradi esclusi) 
          * 
          */
@@ -52,6 +53,7 @@ public class MainApp {
         System.out.println("_".repeat(60));
     
         /** 
+         * (FATTO)
          * @todo [difficoltà 2]
          * dire quante ore della giornata la temperature sono superiori al Gradi 5 ( 5 escluso) 
          * 
@@ -59,6 +61,7 @@ public class MainApp {
         System.out.printf("Counted >5 temperatures:%5d\n",FivePlusCounter);
         System.out.println("_".repeat(60));
         /**
+         * (FATTO)
          * @todo [difficoltà 3]
          * dire a che ora della giornata c'è stata la temperatura massima
          * 
