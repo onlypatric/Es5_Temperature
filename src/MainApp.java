@@ -15,6 +15,8 @@ public class MainApp {
         int FivePlusCounter=0;
 
         int max=-10;
+        int maxHour=0;
+        int MaxHourCounter=0;
 
         int limite_giorno=24;
         
@@ -30,7 +32,12 @@ public class MainApp {
                 FivePlusCounter++;
             }
             if(casuale>max){
+                MaxHourCounter=0;
                 max=casuale;
+                maxHour=i;
+            }
+            if(casuale==max){
+                MaxHourCounter++;
             }
             System.out.format("H: %2d - Deg: %2d°\n",i,casuale);
         }
@@ -41,6 +48,7 @@ public class MainApp {
          * 
          */
         System.out.printf("Counted sub-zero temperatures:%5d\n",subZeroCounter);
+        System.out.println("_".repeat(60));
     
         /** 
          * @todo [difficoltà 2]
@@ -48,13 +56,13 @@ public class MainApp {
          * 
          */
         System.out.printf("Counted >5 temperatures:%5d\n",FivePlusCounter);
-        
+        System.out.println("_".repeat(60));
         /**
          * @todo [difficoltà 3]
          * dire a che ora della giornata c'è stata la temperatura massima
          * 
          */
-        System.out.printf("Max temperature registered:%5d\n",max);
+        System.out.printf("Max temperature registered:%5d\nhighest temperature last registered at hour:%5d\nmax temperature repeated %d times\n",max,maxHour,MaxHourCounter);
         
     }
 }

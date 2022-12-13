@@ -1,7 +1,7 @@
 ## Project details
 
 Author: Pintescul Patric
-Version: 1.0 06/12/2022 (dd/mm/yyyy)
+Version: 1.0 12/12/2022 (dd/mm/yyyy)
 
 ## Project description
 
