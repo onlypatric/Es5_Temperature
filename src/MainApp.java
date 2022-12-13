@@ -38,6 +38,7 @@ public class MainApp {
             }
             if(casuale==max){
                 MaxHourCounter++;
+                maxHour=i;
             }
             System.out.format("H: %2d - Deg: %2d°\n",i,casuale);
         }
